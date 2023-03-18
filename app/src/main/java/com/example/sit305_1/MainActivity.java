@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String myString = myText.getText().toString();
-                mtView.setText("Hello " + myString + ". Welcome to SIT 305.");
+                mtView.setText("Hello " + myString + ".\nWelcome to SIT 305.");
                 Toast.makeText(MainActivity.this,"Hello world",Toast.LENGTH_LONG).show();
             }
         });
